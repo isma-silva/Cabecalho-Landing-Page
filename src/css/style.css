@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&family=Manrope:wght@800&family=Public+Sans:wght@300;400;800&display=swap');
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: public sans;
+}
+
+.cabecalho {
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.cabecalho-logo {
+    display: flex;
+    align-items: center;
+}
+
+.cabecalho-menu ul{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.cabecalho-menu li a{
+    margin-left: 30px;
+    padding: 10px 5px;
+    transition: 0.3s ease-in-out;
+}
+
+.cabecalho-menu .botao {
+    font-size: 15px;
+    font-weight: 300;
+    background-color: #5BC241;
+    color: white;
+    padding: 10px 20px;
+    margin-left: 40px;
+    border: none;
+    border-radius: 10px;
+}
+
+.cabecalho-menu .menu {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.cabecalho-logo h3 {
+    font-size: 2rem;
+    font-weight: 800;
+    margin: 5px;
+}
+
+.cabecalho-menu li a:hover{
+    color: white;
+    background-color: #5BC241;
+}
+

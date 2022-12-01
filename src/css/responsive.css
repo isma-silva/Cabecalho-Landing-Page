@@ -1,0 +1,71 @@
+@media (max-width:810px) {
+    .cabecalho {
+        flex-direction: column;
+    }
+
+    .cabecalho-menu {
+        margin-top: 20px;
+    }
+
+    .cabecalho-menu li a{
+        margin-left: 30px;
+    }
+
+}
+
+@media (max-width:670px) {
+    .cabecalho-menu ul {
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    .cabecalho-menu li a{
+        margin: 0px 15px;
+    }
+
+
+    .cabecalho-menu a.botao {
+        margin: 30px 110px;
+    }
+
+    .cabecalho-menu li {
+        margin-top: 20px;
+    }
+
+}
+
+@media (max-width: 455px) {
+
+    .cabecalho {
+        flex-direction: column;
+    }
+
+    .cabecalho-menu ul {
+        margin: 0px;
+        font-size: 40px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cabecalho-menu li {
+        margin-top: 20px;
+    }
+
+    .cabecalho-menu li a {
+        margin: 0;
+    }
+
+    .cabecalho-menu a.botao {
+        margin: 30px 0px 0px;
+    }
+
+    .cabecalho-menu .menu {
+        font-size: 40px;
+    }
+
+    .cabecalho-logo h3 {
+        font-size: 40px;
+    }
+
+}
